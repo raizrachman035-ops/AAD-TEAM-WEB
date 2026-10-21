@@ -1,0 +1,58 @@
+/* 1. HERO SECTION (Gelap & Elegan) */
+.hero-section {
+  position: relative;
+  background: url('assets/images/hero-bg.jpg') center/cover no-repeat;
+  color: #ffffff;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(44, 29, 17, 0.9), rgba(62, 39, 35, 0.82));
+  z-index: 1;
+}
+
+/* 2. SECTION GALERI (Terang dengan Pola Batik Transparan) */
+.section-galeri {
+  position: relative;
+  background-color: #fdfbf7; /* Warna dasar krem kain */
+  padding: 5rem 0;
+}
+
+/* Menggunakan motif batik tipis sebagai pola background */
+.section-galeri::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/images/pattern-kawung.png'); /* Pattern batik transparan */
+  background-repeat: repeat;
+  opacity: 0.06; /* Dibuat sangat tipis agar teks tetap jelas */
+  pointer-events: none;
+}
+
+/* 3. SECTION PROSES PEMBUATAN (Gelap Bertekstur) */
+.section-proses {
+  position: relative;
+  background-color: #3e2723; /* Warna Cokelat Soga */
+  color: #ffffff;
+  padding: 5rem 0;
+}
+
+.section-proses::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/images/pattern-parang.png');
+  background-repeat: repeat;
+  opacity: 0.08;
+  pointer-events: none;
+}
