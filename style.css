@@ -1,4 +1,14 @@
-/* 1. HERO SECTION (Gelap & Elegan) */
+@font-face {
+  font-family: Playfair Display;
+  src: url(fonts\PlayfairDisplay-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-stylegit : normal;
+}
+
+
+
+
+1. HERO SECTION (Gelap & Elegan)
 .hero-section {
   position: relative;
   background: url('assets/images/hero-bg.jpg') center/cover no-repeat;
